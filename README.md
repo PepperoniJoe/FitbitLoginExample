@@ -7,6 +7,10 @@ An example iOS app that allows the app user to login to Fitbit to obtain their p
 
 <img src="GitHub-Images/Fitbit.gif" width="300">
 
+**Requirements:** \
+Requires a developer account with dev.fitbit.com and registration of an app to obtain the necessary client ID.\
+The client ID is needed to access Fitbit's user login authorization process. 
+
 **Technical Info:** \
 Xcode 12 project written in Swift 5 for iOS 14\
 SwiftUI, REST API, Oauth2, User authorization
