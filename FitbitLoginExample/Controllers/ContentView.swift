@@ -16,24 +16,7 @@ struct ContentView: View {
     
     var body: some View {
         Button (action: {
-            if let context = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) {
-                model.contextProvider = AuthContextProvider(context)
-            }
-            
-            model.auth { authCode, error in
-                if error == nil {
-                    print("Your authorization code is \(authCode ?? "missing")")
-                    title        = "Success!"
-                    message      = "The authorization code is " + (authCode ?? "Missing Authorization")
-                    showingAlert = true
-                } else {
-                    print(error?.localizedDescription ?? "The operation couldn't be completed.")
-                   // print("Authorization finished with error \(error?.localizedDescription)")
-                    title        = "Oops!"
-                    message      = "The authorization process failed. Contact the developer."
-                    showingAlert = true
-                }
-            }
+            setupButton()
         }) {
             Text("Start Fitbit Auth").padding()
         }
@@ -41,10 +24,27 @@ struct ContentView: View {
             Alert(title: Text(self.title), message: Text(self.message), dismissButton: .default(Text("OK")))
         }
     }
-}
-
-func setupButton() {
     
+    
+    func setupButton() {
+        if let context = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) {
+            model.contextProvider = AuthContextProvider(context)
+        }
+        
+        model.auth { authCode, error in
+            if error == nil {
+                print("Your authorization code is \(authCode ?? "missing")")
+                title        = "Success!"
+                message      = "The authorization code is " + (authCode ?? "Missing Authorization")
+                showingAlert = true
+            } else {
+                print(error?.localizedDescription ?? "The operation couldn't be completed.")
+                title        = "Oops!"
+                message      = "The authorization process failed. Contact the developer."
+                showingAlert = true
+            }
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {

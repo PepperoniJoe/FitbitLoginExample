@@ -15,6 +15,9 @@
 		936A00F724E7498000E3A4A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A00F624E7498000E3A4A2 /* Constants.swift */; };
 		936A00FA24E749FA00E3A4A2 /* AuthHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A00F924E749FA00E3A4A2 /* AuthHandlerType.swift */; };
 		936A00FC24E74A4F00E3A4A2 /* API-Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A00FB24E74A4F00E3A4A2 /* API-Keys.swift */; };
+		936A00FF24E768BB00E3A4A2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 936A00FE24E768BB00E3A4A2 /* LICENSE */; };
+		936A010124E768E500E3A4A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 936A010024E768E500E3A4A2 /* README.md */; };
+		936A010A24E77F9000E3A4A2 /* Fitbit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 936A010924E77F9000E3A4A2 /* Fitbit.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		936A00F624E7498000E3A4A2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		936A00F924E749FA00E3A4A2 /* AuthHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthHandlerType.swift; sourceTree = "<group>"; };
 		936A00FB24E74A4F00E3A4A2 /* API-Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API-Keys.swift"; sourceTree = "<group>"; };
+		936A00FE24E768BB00E3A4A2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		936A010024E768E500E3A4A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		936A010924E77F9000E3A4A2 /* Fitbit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Fitbit.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,9 @@
 		936A00D624E7473800E3A4A2 = {
 			isa = PBXGroup;
 			children = (
+				936A00FE24E768BB00E3A4A2 /* LICENSE */,
+				936A010024E768E500E3A4A2 /* README.md */,
+				936A010224E768ED00E3A4A2 /* GitHub-Images */,
 				936A00E124E7473800E3A4A2 /* FitbitLoginExample */,
 				936A00E024E7473800E3A4A2 /* Products */,
 			);
@@ -113,6 +122,14 @@
 			path = Root;
 			sourceTree = "<group>";
 		};
+		936A010224E768ED00E3A4A2 /* GitHub-Images */ = {
+			isa = PBXGroup;
+			children = (
+				936A010924E77F9000E3A4A2 /* Fitbit.gif */,
+			);
+			path = "GitHub-Images";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,7 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				936A010A24E77F9000E3A4A2 /* Fitbit.gif in Resources */,
+				936A00FF24E768BB00E3A4A2 /* LICENSE in Resources */,
 				936A00EA24E7473A00E3A4A2 /* Preview Assets.xcassets in Resources */,
+				936A010124E768E500E3A4A2 /* README.md in Resources */,
 				936A00E724E7473A00E3A4A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
