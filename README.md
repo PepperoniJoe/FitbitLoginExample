@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
 
-An example iOS app that allows the app user to login to Fitbit to obtain their personal fitness information
+An example iOS14 app that allows the app user to login to Fitbit to obtain their personal fitness information
 
 <img src="GitHub-Images/Fitbit.gif" width="300">
 
@@ -13,7 +13,7 @@ The client ID is needed to access Fitbit's user login authorization process.
 
 **Technical Info:** \
 Xcode 12 project written in Swift 5 for iOS 14\
-SwiftUI, REST API, Oauth2, User authorization
+SwiftUI, Fitbit API, User authorization, Callback URL, App Registration
 
 **See Also:** \
 [Quickies - a variety of example iOS apps](https://github.com/PepperoniJoe/Quickies)\
