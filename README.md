@@ -13,7 +13,8 @@ The client ID is needed to access Fitbit's user login authorization process.
 
 **Technical Info:** \
 Xcode 12 project written in Swift 5 for iOS 14\
-SwiftUI, Fitbit API, User authorization, Callback URL, App Registration
+SwiftUI, Fitbit API, User authorization, Callback URL, App Registration\
+Redirect Scheme, Safari Services, Authentification Services
 
 **See Also:** \
 [Quickies - a variety of example iOS apps](https://github.com/PepperoniJoe/Quickies)\
