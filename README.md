@@ -1,6 +1,7 @@
 # Fitbit Login Example
 [![Xcode version](https://img.shields.io/badge/xcode-12%20-brightgreen)](https://developer.apple.com/xcode/)
 [![Language](https://img.shields.io/badge/swift-5.0-orange.svg)](https://developer.apple.com/swift)
+[![Language](https://img.shields.io/badge/swiftUI-orange.svg)](https://developer.apple.com/xcode/swiftUI)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://mit-license.org)
 
 An example iOS14 app that allows the app user to login to Fitbit to obtain their personal fitness information
