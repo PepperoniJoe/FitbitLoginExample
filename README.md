@@ -9,7 +9,7 @@ An example iOS14 app that allows the app user to login to Fitbit to obtain their
 <img src="GitHub-Images/Fitbit.gif" width="300">
 
 **Authorization Example Derived From:** \
-[ iOS Dev Course: Fitbit Auth via AuthenticationServices.framework (iOS 13 compatibility) by Maxim Vialyx\ ](https://medium.com/@vialyx/ios-dev-course-authenticationservices-in-fitbit-auth-integration-d131b947af1c)
+[ iOS Dev Course: Fitbit Auth via AuthenticationServices.framework (iOS 13 compatibility) by Maxim Vialyx ](https://medium.com/@vialyx/ios-dev-course-authenticationservices-in-fitbit-auth-integration-d131b947af1c)
 
 **Requirements:** \
 Requires a developer account with dev.fitbit.com and registration of an app to obtain the necessary client ID.\
