@@ -21,11 +21,11 @@ class Model: AuthHandlerType {
 
         var urlComponents = URLComponents(url: authUrl, resolvingAgainstBaseURL: false)
         urlComponents?.queryItems = [
-            URLQueryItem(name: "response_type", value: Constants.responseType),
-            URLQueryItem(name: "client_id", value: clientId),
-            URLQueryItem(name: "redirect_url", value: Constants.redirectUrl),
-            URLQueryItem(name: "scope", value: Constants.scope.joined(separator: " ")),
-            URLQueryItem(name: "expires_in", value: String(Constants.expires))
+            URLQueryItem(name: "response_type", value : Constants.responseType),
+            URLQueryItem(name: "client_id", value : clientId),
+            URLQueryItem(name: "redirect_url", value : Constants.redirectUrl),
+            URLQueryItem(name: "scope", value : Constants.scope.joined(separator : " ")),
+            URLQueryItem(name: "expires_in", value : String(Constants.expires))
         ]
 
         guard let url = urlComponents?.url else {

@@ -8,12 +8,12 @@ import UIKit
 
 struct Constants {
 
-    static let authUrl = URL(string: "https://www.fitbit.com/oauth2/authorize")
-    static let responseType = "code"
+    static let authUrl        = URL(string: "https://www.fitbit.com/oauth2/authorize")
+    static let responseType   = "code"
     static let redirectScheme = "FitbitLoginExample://"
-    static let redirectUrl = "\(redirectScheme)fitbit/auth"
-    static let scope = ["activity", "heartrate", "location", "nutrition", "profile", "settings", "sleep", "social", "weight"]
-    static let expires = "604800"
+    static let redirectUrl    = "\(redirectScheme)fitbit/auth"
+    static let scope          = ["activity", "heartrate", "location", "nutrition", "profile", "settings", "sleep", "social", "weight"]
+    static let expires        = "604800"
 
     private init() {}
 

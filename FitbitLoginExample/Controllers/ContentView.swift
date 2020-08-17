@@ -16,17 +16,17 @@ struct ContentView: View {
     
     var body: some View {
         Button (action: {
-            setupButton()
+            requestAuth()
         }) {
             Text("Start Fitbit Auth").padding()
         }
         .alert(isPresented: $showingAlert) {
-            Alert(title: Text(self.title), message: Text(self.message), dismissButton: .default(Text("OK")))
+            Alert(title: Text(title), message: Text(message), dismissButton: .default(Text("OK")))
         }
     }
     
     
-    func setupButton() {
+    func requestAuth() {
         if let context = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) {
             model.contextProvider = AuthContextProvider(context)
         }
